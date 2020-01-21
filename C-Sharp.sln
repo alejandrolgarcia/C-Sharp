@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Propiedades", "Propiedades\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch", "Switch\Switch.csproj", "{928C8774-37F1-40DC-B360-2AF2561F0C32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilas", "Pilas\Pilas.csproj", "{94E75947-916C-4BEF-B53E-D86CBA9259CD}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,5 +35,9 @@ Global
 		{928C8774-37F1-40DC-B360-2AF2561F0C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{928C8774-37F1-40DC-B360-2AF2561F0C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{928C8774-37F1-40DC-B360-2AF2561F0C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E75947-916C-4BEF-B53E-D86CBA9259CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E75947-916C-4BEF-B53E-D86CBA9259CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E75947-916C-4BEF-B53E-D86CBA9259CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E75947-916C-4BEF-B53E-D86CBA9259CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
