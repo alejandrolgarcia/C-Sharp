@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaseGenericaList", "ClaseG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Propiedades", "Propiedades\Propiedades.csproj", "{69FBB0CE-5595-4783-9257-F7187FEB0DA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch", "Switch\Switch.csproj", "{928C8774-37F1-40DC-B360-2AF2561F0C32}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -27,5 +29,9 @@ Global
 		{69FBB0CE-5595-4783-9257-F7187FEB0DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69FBB0CE-5595-4783-9257-F7187FEB0DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69FBB0CE-5595-4783-9257-F7187FEB0DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928C8774-37F1-40DC-B360-2AF2561F0C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928C8774-37F1-40DC-B360-2AF2561F0C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928C8774-37F1-40DC-B360-2AF2561F0C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928C8774-37F1-40DC-B360-2AF2561F0C32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
