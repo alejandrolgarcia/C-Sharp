@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch", "Switch\Switch.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilas", "Pilas\Pilas.csproj", "{94E75947-916C-4BEF-B53E-D86CBA9259CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListasEnlazadas", "ListasEnlazadas\ListasEnlazadas.csproj", "{C30E73FB-6899-45FC-AB0F-56BC333C7747}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +41,9 @@ Global
 		{94E75947-916C-4BEF-B53E-D86CBA9259CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94E75947-916C-4BEF-B53E-D86CBA9259CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94E75947-916C-4BEF-B53E-D86CBA9259CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30E73FB-6899-45FC-AB0F-56BC333C7747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30E73FB-6899-45FC-AB0F-56BC333C7747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30E73FB-6899-45FC-AB0F-56BC333C7747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30E73FB-6899-45FC-AB0F-56BC333C7747}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
