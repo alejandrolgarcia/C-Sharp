@@ -30,7 +30,27 @@ namespace ListasEnlazadas
 
       LinkedList<String> nodos = new LinkedList<string>();
 
-    
+      var list = new ListaNodo();
+
+      list.ListaVacia();
+
+      list.addNodo(1);
+      list.addNodo(5);
+      list.addNodo(2);
+      list.addNodo(4);
+      list.addNodo(9);
+      list.addNodo(7);
+
+      list.Listar();
+
+      list.EliminarPrimero();
+      Console.WriteLine();
+      list.Listar();
+
+      Console.WriteLine();
+      list.EliminarUltimo();
+      list.Listar();
+
     }
   }
 }

@@ -71,5 +71,52 @@ namespace ListasEnlazadas
         }
       }
     }
+
+    // Este metodo sirve para verificar si la lista tiene datos o esta vacia.
+    public void ListaVacia()
+    {
+      if (primero == null)
+      {
+        Console.WriteLine("La lista esta vacia");
+      }
+      else
+      {
+        Console.WriteLine("La lista tiene datos");
+      }
+
+    }
+
+    // Metodo para enlistar los nodos y mostrarlos por consola.
+    public void Listar()
+    {
+      Nodo actual = primero;
+
+      while (actual != null)
+      {
+        Console.Write($"[{ actual.dato }] -> ");
+        actual = actual.siguiente;
+      }
+    }
+
+    // Metodo para elemiminar el primero nodo
+    public void EliminarPrimero()
+    {
+      primero = primero.siguiente;
+    }
+
+    // Metodo para eliminar el ultimo nodo
+    public void EliminarUltimo()
+    {
+      Nodo anterior = primero;
+      Nodo actual = primero;
+
+      while (actual.siguiente != null)
+      {
+        anterior = actual;
+        actual = actual.siguiente;
+      }
+
+      anterior.siguiente = null;
+    }
   }
 }
