@@ -39,7 +39,10 @@ namespace ListasEnlazadas
       list.addNodo(2);
       list.addNodo(4);
       list.addNodo(9);
-      list.addNodo(7);
+      list.addNodo(10);
+      list.addNodo(3);
+      list.addNodo(11);
+      list.addNodo(6);
 
       list.Listar();
 
@@ -50,7 +53,6 @@ namespace ListasEnlazadas
       Console.WriteLine();
       list.EliminarUltimo();
       list.Listar();
-
     }
   }
 }
