@@ -38,8 +38,10 @@ namespace RandomPasswordGenerator
       return randomChar;
     }
 
+    // FUNCION PRINCIPAL
     static void Main(string[] args)
     {
+      // StringBuilder
       // Los objetos StringBuilder son mutables, pueden ser modificados, no es
       // necesario que internamente se cree un nuevo objeto en memoria cada vez que
       // se modifique su valor, en cambio se opta por expandir el espacio de memoria
